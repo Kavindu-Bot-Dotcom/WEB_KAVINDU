@@ -82,10 +82,10 @@ router.get("/", async (req, res) => {
             );
 
             const sid = `*KAVINDU [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑`;
+            const mg = `🛡 *Do not share this code to anyone* 🛡`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwall.alphacoders.com%2Fbig.php%3Fi%3D1082030&psig=AOvVaw0YRt8eBy8rj_2sYSG7ZRvG&ust=1744978381365000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICan5aF34wDFQAAAAAdAAAAABAE",
+                url: "https://raw.githubusercontent.com/Kavindu-Bot-Dotcom/BOT-HELP-ME/refs/heads/main/1082030.jpg?token=GHSAT0AAAAAADCMPOQQ2WRY4NKFT453UMV42AA75PQ",
               },
               caption: sid,
             });
